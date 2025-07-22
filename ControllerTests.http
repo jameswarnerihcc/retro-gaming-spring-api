@@ -1,0 +1,13 @@
+GET http://localhost:8080/products
+Accept: application/json
+
+### Post new product
+
+POST http://localhost:8080/new/product
+Content-Type: application/json
+
+{
+  "name": "Nintendo 64",
+  "description": "Used working Nintendo 64 gaming console.",
+  "price": 64
+}
